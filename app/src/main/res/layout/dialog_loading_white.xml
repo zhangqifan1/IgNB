@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="@dimen/xx150"
+        android:layout_height="@dimen/xx150"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!--&lt;!&ndash;如果要修改时间的话 可以在 具体的类比如:CubeGrid 中 设置时间  默认1300&ndash;&gt;-->
+        <!--<com.github.ybq.android.spinkit.SpinKitView-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/spin_kit"-->
+            <!--style="@style/SpinKitView.Large.CubeGrid"-->
+            <!--android:layout_width="@dimen/xx120"-->
+            <!--android:layout_height="@dimen/xx120"-->
+            <!--app:SpinKit_Color="@color/colorAccent" />-->
+
+        <yanzhikai.textpath.AsyncTextPathView
+
+            android:id="@+id/dialog_white_atpv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:duration="2000"
+
+            app:autoStart="false"
+
+            app:showPainter="false"
+
+
+            app:pathStrokeWidth="@dimen/xx6"
+            app:paintStrokeColor="@color/white"
+            app:pathStrokeColor="@color/white"
+
+            app:textInCenter="true"
+            app:textSize="34sp"
+
+
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+
+</layout>

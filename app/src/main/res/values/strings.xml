@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IG牛逼</string>
+    <string name="guide">欢迎来到\n德莱联盟</string>
+    <string name="include_main_drawar">来,扫扫试试</string>
+    <string name="include_main_drawar2">长按保存到本地图库\n然后长按识别二维码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_ll_top">我有一壶酒 \n  \&#160; \&#160; \&#160; 足以慰风尘</string>
+    <string name="main_title">扣你鸡儿哇</string>
+
+
+    <string name="jian1">长虹剑</string>
+    <string name="jian2">冰魄剑</string>
+    <string name="jian3">紫云剑</string>
+    <string name="jian4">雨花剑</string>
+    <string name="jian5">奔雷剑</string>
+    <string name="jian6">青光剑</string>
+    <string name="jian7">旋风剑</string>
+    <string name="center_title"> 纵扬鞭,马蹄疾,旧日阑珊,堪恨亦堪哀,长虹应笑三千恨,少年轻狂,仗剑走天涯 </string>
+</resources>

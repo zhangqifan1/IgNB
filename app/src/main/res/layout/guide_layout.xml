@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/xx300"
+            android:id="@+id/guide_image"
+            android:layout_width="@dimen/xx192"
+            android:layout_height="@dimen/xx192"
+            android:src="@drawable/guide_jiangzhang" />
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/xx150"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/xx350"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/guide"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</layout>

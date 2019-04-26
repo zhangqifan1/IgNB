@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--behavior_hideable    为 true可以滑到底部隐藏然后就上不来了-->
+
+    <LinearLayout
+        android:id="@+id/include_main_drawer_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/xx20"
+
+        android:background="@color/yellow"
+        android:orientation="vertical"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="@dimen/xx200"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+        <TextView
+            android:layout_marginTop="@dimen/xx120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/include_main_drawar"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/zhifubao"
+            android:layout_width="@dimen/xx500"
+            android:layout_height="@dimen/xx500"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/xx20"
+            android:scaleType="fitXY"
+            android:src="@drawable/zhifubao" />
+
+        <TextView
+            android:layout_margin="@dimen/xx20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/include_main_drawar2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</layout>

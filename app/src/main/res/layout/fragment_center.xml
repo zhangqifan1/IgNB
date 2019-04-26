@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".the_formal.ui.CenterFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <yanzhikai.textpath.AsyncTextPathView
+
+                android:id="@+id/atpv_1"
+                android:layout_marginLeft="@dimen/xx40"
+                android:layout_marginRight="@dimen/xx40"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xx720"
+                app:duration="6000"
+
+                app:autoStart="false"
+
+                app:showPainter="false"
+
+                app:text="@string/center_title"
+
+                app:pathStrokeWidth="@dimen/xx6"
+                app:paintStrokeColor="@color/zongse"
+                app:pathStrokeColor="@color/zongse"
+
+                app:textInCenter="true"
+                app:textSize="34sp"
+
+
+                android:layout_gravity="center_horizontal"
+                />
+
+            <com.nightonke.boommenu.BoomMenuButton
+                android:id="@+id/bmb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bmb_normalColor="@color/zongse"
+                app:bmb_shadowRadius="@dimen/xx40"
+
+                />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</layout>

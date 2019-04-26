@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#D81B60</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black50">#8d7c7c</color>
+    <color name="grey">#d8d1d1</color>
+    <color name="yellow">#f4b155</color>
+    <color name="zongse">#d1982e</color>
+</resources>
